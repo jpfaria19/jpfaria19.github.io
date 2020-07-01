@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Site web para auxiliar turistas em visita ao Brasil">
+    <meta name="keyworld" content="Ajuda, Turistas, Auxilio, Help, Ayuda, Helfen, Sistema de Ajudam, Guia Rio, Guia, Rio, Brasil">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/tablet.css" />
+    <link rel="stylesheet" type="text/css" href="css/desktop.css" />
+	<title>Index - Guia Rio</title>
+</head>
+<body>
+    <div class="container">
+        <header role="banner">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" tabindex="2" role="menu">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" tabindex="1" title="Link para o index/home">Guia Rio</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active" tabindex="3"><a href="sobre.html" title="link para página sobre saindo do menu principal">Sobre <span class="sr-only">(current)</span></a></li>
+                        <li tabindex="4"><a href="contato.html" title="link para página contato saindo do menu principal">Contato</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="form">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Search" tabindex="5" role="search">
+                        </div>
+                        <button type="submit" class="btn btn-info" tabindex="6" role="button">Buscar</button>
+                    </form>
+                    <a href="contato.html" tabindex="7" title="Link para página contato.html"><button type="button" class="btn btn-default" role="button">Posso Ajudar?</button></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main">
+        <section>
+            <h1>Bem vindo ao Guia Rio. Aproveite tudo</h1>
+                <h3>Desfrute do seu melhor com o melhor site que auxilia você.</h3>
+        </section>
+        <section>
+            <article>
+                <div class="Menu2" role="navigation" aria-label="Menu tablet e Desktop">
+                    <a href="emg.html" title="Link para página Emergência">Emergência</a>
+                    <a href="lzr.html" title="Link para página Lazer">Lazer</a>
+                    <a href="hpd.html" title="Link para página Hospedagem">Hospedagem</a>
+                </div>
+            </article>
+        </section>
+        <section>
+            <div class="telEmg">
+                <p>
+                    <strong>
+                        Fique atento aos telefones de emergência!<br>
+                        Delegacia Especial de Apoio ao Turismo - DEAT: (21) 2332-2924<br>
+                        Polícia Militar: 190; SAMU: 192; Bombeiros: 193.
+                    </strong>
+                </p>
+            </div>
+        </section>
+        <section>
+            <article class="carousel" role="slider">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <a href="lzr.html" title="Link para página Lazer fixado na imagem 1"><div class="imagem1"></div></a>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <a href="hpd.html" title="Link para página Hospedagem fixado na imagem 2"><div class="imagem2"></div></a>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <a href="lzr.html" title="Link para página Lazer fixado na imagem 3"><div class="imagem3"></div></a>
+                    </div>
+                </div>
+                <br>
+                <div class="marcador">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <input id="pac-input" class="controlSearch" type="text" placeholder="Entre com sua localização" tabindex="8">
+                <div id="type-selector" class="controls">
+                  <input type="radio" name="type" id="changetype-all" checked="checked" role="radio" tabindex="9">
+                  <label for="changetype-all">Tudo</label>
+            
+                  <input type="radio" name="type" id="changetype-establishment" role="radio">
+                  <label for="changetype-establishment">Estabelec.</label>
+            
+                  <input type="radio" name="type" id="changetype-address" role="radio">
+                  <label for="changetype-address">Endereços</label>
+                </div>
+                <div id="map"></div>
+            </article>
+        </section>
+        </main>
+        <div class="footer" role="navigation" aria-label="Menu footer">
+                <a href="emg.html" title="Link para página de Emergência">Emergência</a>
+                <a href="lzr.html" title="Link para página Lazer">Lazer</a>
+                <a href="hpd.html" title="Link para página Hospedagem">Hospedagem</a>
+        </div>
+        <footer role="contentinfo">
+            <div class="container text-center">
+                <hr />
+                <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="tituloFooter">A Empresa</li>  
+                        <li><a href="sobre.html#missao" tabindex="10" title="Ancora para página sobre - Parágrafo missão">Missão</a></li>
+                        <li><a href="sobre.html#visao" tabindex="11" title="Ancora para página sobre - Parágrafo visão">Visão</a></li>
+                        <li><a href="sobre.html#valores" tabindex="12" title="Ancora para página sobre - Parágrafo valores">Valores</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="tituloFooter">Emergência</li>
+                        <li><a href="emg.html" tabindex="13" title="Link página emergência partindo do footer - Hospital">Hospitais</a></li>
+                        <li><a href="emg.html" tabindex="14" title="Link página emergência partindo do footer - Delegacia">Delegacias</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="tituloFooter">Lazer</li>
+                        <li><a href="lzr.html" tabindex="15" title="Link página Lazer partindo do footer - Restaurante">Restaurantes</a></li>
+                        <li><a href="lzr.html" tabindex="16" title="Link página Lazer partindo do footer - Bares">Bares</a></li>
+                        <li><a href="lzr.html" tabindex="17" title="Link página Lazer partindo do footer - Pontos turisticos">Pontos Turisticos</a></li>
+                        <li><a href="lzr.html" tabindex="18" title="Link página Lazer partindo do footer - Eventos">Eventos</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="tituloFooter">Hospedagem</li>
+                        <li><a href="hpd.html" tabindex="19" title="Link página Hospedagem partindo do footer - Hotel">Hoteis</a></li>
+                    </ul>
+                    </div>  
+                </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-pills nav-justified">
+                            <li>Copyright © - Guia Rio. Todos os direitos reservados.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap-js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxHB_dXdtx3cJjlV7bM1q0QYdWLNJNxMg&callback=initMap&libraries=places"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

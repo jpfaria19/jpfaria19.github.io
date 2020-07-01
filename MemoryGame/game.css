@@ -1,0 +1,186 @@
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10,#i11,#i12,#i13,#i14,#i15,#i16{
+    width: 64px;
+	height: 100px;
+	margin: 10px;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 940px;
+	margin: auto;
+	border: 1px solid;
+	position: relative;
+	border-radius: 10px;
+	background-color: #5e4a16;
+}
+div#botao{
+	width: 50px;
+	margin: auto;
+}
+#game{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 300px;
+}
+h1{
+	text-align: center;
+	color: 	white;
+}
+.carta {
+	margin: 0 auto;
+	float:left;
+	width: 144px;
+	height: 180px;
+}
+.carta:hover{
+	box-shadow: 0 0 10px;
+}
+#carta1 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta2 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta3 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta4 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta5 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta6 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta7 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta8 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta9 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta10 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta11 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta12 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta13 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta14 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+#carta15 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+
+#carta16 {
+	margin: 10px;
+	float:left;
+	width: 64px;
+	height: 100px;
+	
+}
+.carta a.thumb {
+	float: left;
+	width: 100px;
+	height: 60px;
+	margin: 0 5px 10px 0;
+}
+
+.carta a.thumb img {
+	max-width: 100%;
+	max-height: 100%;
+}
+#button{
+	margin-left: 425px;
+	width: 150px;
+}
+.front {
+	width: 64px;
+	height: 100px;
+	background: url(img/back.png) no-repeat center center;
+	border-radius: 1px;
+	box-shadow: 0px 1px 6px rgba(0,0,0, 0.4);
+}
+.back{
+	width: 64px;
+	height: 100px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 6px rgba(0,0,0, 0.4);
+}

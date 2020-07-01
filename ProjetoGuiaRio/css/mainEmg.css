@@ -1,0 +1,409 @@
+@media screen and (max-width: 767px) {
+                        /****************************** MOBILE MAIN EMERGÊNCIA *********************************/
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /****************************************** Incluir no Map somente pontos de emergência. *****************************************/
+    #map{
+        height: 30.8em;
+        width: 98%;
+        height: 18.5em;
+        bottom: 1em;
+        left: 0.2em;
+    }
+    .telEmg{
+        visibility: initial;
+        border: solid;
+        width: 102%;
+        height: 10em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        text-align: center;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+        /* ******* Slide Show (Carousel) ******** */
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1px;
+        height: 1px;
+        bottom: 3em;
+        left: 0.5em;
+        position: relative;
+        margin: auto;
+        visibility: hidden;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 1px;
+        visibility: hidden;
+    }
+    div.fade img{
+        width: 100%;
+        height: 1px;
+        visibility: hidden;
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        height: 1px;
+        visibility: hidden;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 1px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        visibility: hidden;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    .btn-info{
+        margin-top: -1.4%;
+    }
+    .form-control{
+        width: 68%;
+        float: right;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 407px) and (max-width: 767px) {
+    .telEmg{
+        height: 8.5em;
+    }
+    #map{
+        height: 21.5em;
+    }
+    #pac-input{
+        margin-left: -28%;
+    }
+    .controlSearch{
+        margin-top: 15%
+    }
+    .controls{
+        margin-top: 8em
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+
+@media (min-width: 570px) and (max-width: 767px) {
+    .telEmg{
+        height: 6em;
+    }
+    #map{
+        height: 23em;
+    }
+    .controlSearch{
+        margin-top: 2%
+    }
+    #pac-input{
+        margin-left: 0;
+    }
+}
+
+
+        /****************************** TABLET MAIN EMERGÊNCIA *********************************/
+
+@media (min-width: 768px) and (max-width: 1023px){
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+                    /****** Incluir no Map somente pontos de emergência. ******/
+    #map{
+        height: 30.8em;
+        width: 98%;
+        height: 27em;
+        bottom: 0;
+        left: 0.2em
+    }
+    .telEmg{
+        visibility: initial;
+        border: solid;
+        width: 100%;
+        height: 7em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 17px;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+        /* ******* Slide Show (Carousel) ******** */
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1px;
+        height: 1px;
+        bottom: 3em;
+        left: 0.5em;
+        position: relative;
+        margin: auto;
+        visibility: hidden;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 1px;
+        visibility: hidden;
+    }
+    div.fade img{
+        width: 100%;
+        height: 1px;
+        visibility: hidden;
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        height: 1px;
+        visibility: hidden;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 1px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        visibility: hidden;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+        /********* Menu 2 ********/
+    .Menu2{
+        background-color: #333;
+        overflow: hidden;
+        width: 100%;
+        margin-top: -1em;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+                        /****************************** DESKTOP MAIN EMERGÊNCIA *********************************/
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .h1, .h2, .h3, h1, h2, h3{
+        margin-left: 1em
+    }
+    .Menu2{
+        width: 66%;
+        float: left;
+        margin-left: 1.6em;
+    }
+    #map{
+        width: 66%;
+        height: 31em;
+        float: left;
+        margin-left: 1.7em;
+        bottom: 1em;
+    }
+    .telEmg{
+        visibility: initial;
+        width: 100%;
+        height: 8em;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    div.telEmg p{
+        margin-top: 0;
+        margin-left: 0.4em;
+    }
+        /* ******* Slide Show (Carousel) ******** */
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100%;
+        height: 10em;
+        bottom: 4em;
+        left: 0.5em;
+        position: relative;
+        margin: auto;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 1px;
+    }
+    div.fade img{
+        width: 100%;
+        height: 1px;
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        height: 1px;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 1em;
+        width: 13px;
+        margin-top: 18em;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    .imagem1{
+        background: url(../img/policia-Olimp.jpg);
+        width: 100%;
+        height: 32em;
+    }
+    .imagem2{
+        background: url(../img/bombeiro-Olimp.jpg);
+        width: 100%;
+        height: 32em;
+    }
+    .imagem3{
+        background: url(../img/deat.jpg);
+        width: 100%;
+        height: 32em;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .slideshow-container{
+        left: 2em;
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+}

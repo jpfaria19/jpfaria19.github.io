@@ -1,0 +1,299 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                                    /* **********************************   MOBILE   ******************************** */
+@media screen and (max-width: 767px) {
+            /* ***** Map ***** */
+    #map{
+        height: 30.8em;
+        width: 100%;
+        bottom: 0;
+        margin-bottom: 3.5em;
+    }
+            /* ***** Display : none ***** */
+    .Menu2{
+        display: none;
+    }
+    .telEmg{
+        display: none;
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 68%;
+        float: right;
+    }
+
+        /* ******* Slide Show (Carousel) ******** */
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1px;
+        height: 1px;
+        bottom: 3em;
+        left: 0.5em;
+        position: relative;
+        margin: auto;
+        visibility: hidden;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 1px;
+        visibility: hidden;
+    }
+    div.fade img{
+        width: 100%;
+        height: 1px;
+        visibility: hidden;
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        height: 1px;
+        visibility: hidden;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 1px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        visibility: hidden;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+}
+
+                    /* **********************************   TABLET   ******************************** */
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .Menu2{
+        margin-top: 0
+    }
+    .btn-default{
+        float: right;
+        background-color: yellow;
+        margin-bottom: 0.4em;
+        margin-top: -3em;
+        color: black
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+
+            /* ******* Slide Show (Carousel) ******** */
+
+    /* Imagens */
+    .imagem1{
+        background: url(../img/imgRio.jpg);
+        width: 90%;
+        height: 24em;
+        margin-left: 2.5em;
+    }
+    .imagem2{
+        background: url(../img/lazer.jpg);
+        width: 90%;
+        height: 24em;
+        margin-left: 2.5em;
+    }
+    .imagem3{
+        background: url(../img/Olimpiadas-Rio-2016.jpg);
+        width: 90%;
+        height: 24em;
+        margin-left: 2.5em;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100%;
+        height: 20em;
+        bottom: 3em;
+        left: 0.5em;
+        position: relative;
+        margin: auto;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 30.5em;
+    }
+    div.fade img{
+        width: 100%;
+        height: 24em;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .marcador{
+        text-align: center;
+        margin-left: 4em;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .dotImg{
+        text-align: center;
+        margin-left: 3em;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 768px) and (max-width: 991px){
+    .imagem1{
+        width: 108%;
+        margin-left: 3.5em;
+    }
+    .imagem2{
+        width: 108%;
+        margin-left: 3.5em;
+    }
+    .imagem3{
+        width: 108%;
+        margin-left: 3.5em;
+    }
+    .marcador{
+        text-align:center;
+        margin-left: 9.6em;
+    }
+    .btn-default{
+        margin-top: 4em;
+        margin-left: 9.4em;
+    }
+    .numbertext{
+        margin-left: 3.6em;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 768px) and (max-width: 898px){
+    .imagem1{
+        width: 100%;
+        margin-left: 1em;
+    }
+    .imagem2{
+        width: 100%;
+        margin-left: 1em;
+    }
+    .imagem3{
+        width: 100%;
+        margin-left: 1em;
+    }
+    .dotImg{
+        text-align:center;
+        margin-left: 6em;
+    }
+    .btn-default{
+        margin-top: 4em;
+        margin-left: 7em;
+    }
+    .numbertext{
+        margin-left: 0.5em;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 899px) and (max-width: 991px){
+    .dotImg{
+        text-align:center;
+        margin-left: 10em;
+    }
+    .btn-default{
+        margin-top: 4em;
+        margin-left: 9em;
+    }
+}
+                                    /* **********************************   DESKTOP   ******************************** */
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+    .dotImg{
+        text-align: center;
+        margin-left: 6.5em;
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+}

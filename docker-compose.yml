@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  proxy:
+    image: jpfaria19/mywebsite-nginx
+    build:
+      context: .
+    ports:
+      - "30000:80"
+    networks:
+      - website
+
+networks: 
+  website:
+    driver: bridge

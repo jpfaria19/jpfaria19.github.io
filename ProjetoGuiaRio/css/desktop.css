@@ -1,0 +1,233 @@
+@media (min-width: 1024px) and (max-width: 2560px) {
+body{
+    background-color: #fff;
+}
+    /****************************************** INDEX.HTML **********************************************/
+
+    /* Menu Responsive */
+    .navbar-toggle{
+        float: left;
+        margin-left: 1em; 
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        color: #777;
+        background-color: #f8f8f8;
+    }
+
+            /* LOGO GUIA RIO */
+
+    .navbar-brand{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.7em;
+    }
+    .btn-default{
+        float: right;
+        background-color: yellow;
+        margin-bottom: 0.4em;
+        margin-top: 0.5em;
+        color: black
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+            /* *************** MAP ************** */
+    #map{
+        height: 30em;
+        width: 68%;
+
+
+    }
+    .controls {
+        margin-top: 1.3%;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 8%;
+        margin-left: 0%;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        height: 8%;
+        font-weight: 300;
+        margin-left: 0;
+        margin-top: 1.2%;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 31%;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 3px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+            /* ******* Slide Show (Carousel) ******** */
+
+    /* Imagens */
+    .imagem1{
+        background: url(../img/imgRio.jpg);
+        width: 100%;
+        height: 24em;
+    }
+    .imagem2{
+        background: url(../img/restaurante.jpg);
+        width: 100%;
+        height: 23em;
+    }
+    .imagem3{
+        background: url(../img/Olimpiadas-Rio-2016.jpg);
+        width: 100%;
+        height: 24em;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100%;
+        height: 20em;
+        bottom: 3em;
+        left: 2em;
+        position: relative;
+        margin: auto;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 30.5em;
+        bottom: 10.1em;
+    }
+    div.fade img{
+        width: 100%;
+        height: 24em;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .marcador{
+        text-align: center;
+        margin-left: 5em;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+            /* ******* Menu 2 ******* */
+    .Menu2{
+        background-color: #333;
+        overflow: hidden;
+        width: 68%;
+
+    }
+    div.Menu2 a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+            /* Telefones de Emergência */
+    div.telEmg p{
+        border: solid;
+        width: 68%;
+        margin-top: 1em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding: 1em;
+    }
+
+            /* ******* Menu Footer ******* */
+    .footer {
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+        height: 1px;
+        visibility: hidden;
+    }
+    .footer a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+        font-size: 17px;
+        visibility: hidden;
+    }
+
+        /* *********** FOOTER ************* */
+    .tituloFooter{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 1200px) and (max-width: 2560px){
+    .btn-default{
+        margin-left: 11.5em;
+    }
+}

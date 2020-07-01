@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.espaco{
+    margin-bottom: 4em;
+}
+
+                    /* **********************************   MOBILE   ******************************** */
+@media screen and (max-width: 767px) {
+
+    #map{
+        top: 1em;
+    }
+    #listing{
+        margin-top: 2em;
+        width: 100%;
+    }
+    #autocomplete{
+        width: 70%
+    }
+    p{
+        font-size: 1.2em;
+        font-weight: 700; 
+    }
+    .btn-info{
+        margin-top: -1.4%;
+    }
+    .form-control{
+        width: 68%;
+        float: right;
+    }
+}
+
+                    /* **********************************   TABLET   ******************************** */
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .Menu2{
+        margin-top: 0;
+        width: 100%;
+    }
+    #map{
+        width: 70%
+    }
+    #listing{
+        float: right;
+        width: 15em;
+        height: 30.8em;
+        margin-top: -31em;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .btn-default{
+        float: right;
+        background-color: yellow;
+        margin-bottom: 0.4em;
+        margin-top: 0.5em;
+        color: black
+    }
+    p{
+        font-size: 1.3em;
+        font-weight: 700;
+        margin-top: 1em;
+    }
+    #autocomplete{
+        width: 70%;
+        margin-bottom: 1em;
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 768px) and (max-width: 991px){
+    .btn-default{
+        margin-top: 0.5em;
+        margin-left: 9.4em;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 768px) and (max-width: 898px){
+    .btn-default{
+        margin-top: 0.5em;
+        margin-left: 6em;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 899px) and (max-width: 991px){
+    .btn-default{
+        margin-top: 0.5em;
+        margin-left: 9em;
+    }
+}
+@media (min-width: 991px) and (max-width: 1024px){
+    #listing{
+        float: right;
+        width: 29%;
+        height: 30.8em;
+        margin-top: -31em;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+                    /* **********************************   DESKTOP   ******************************** */
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+        /* ***** Map ***** */
+    .principal{
+        margin-top: 3em;
+    }
+    p{
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    table {
+        font-size: 0.8em;
+    }
+    #map {
+        height: 30.8em;
+        width: 74%;
+        bottom: 0;
+        margin-bottom: 3.5em;
+    }
+    #listing {
+        float: right;
+        overflow-y: auto;
+        height: 30.8em;
+        margin-right: -2em;
+        margin-top: -34.3em;
+        cursor: pointer;
+        overflow-x: hidden;
+    }
+    #findhotels {
+        font-size: 0.9em;
+        padding: 4px;
+        z-index: 5;
+        background-color: #fff;
+    }
+    #locationField {
+        width: 40%;
+        height: 25px;
+        left: 12.6em;
+        margin-bottom: 1em;
+        z-index: 5;
+        background-color: #fff;
+    }
+    #controls {
+        position: absolute;
+        left: 300px;
+        width: 140px;
+        top: 0px;
+        z-index: 5;
+        background-color: #fff;
+    }
+    #autocomplete {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    #country {
+        width: 100%;
+    }
+    .placeIcon {
+        width: 20px;
+        height: 34px;
+        margin: 4px;
+    }
+    .hotelIcon {
+        width: 24px;
+        height: 24px;
+    }
+    #resultsTable {
+        border-collapse: collapse;
+        width: 240px;
+    }
+    #rating {
+        font-size: 13px;
+        font-family: Arial Unicode MS;
+    }
+    .iw_table_row {
+        height: 18px;
+    }
+    .iw_attribute_name {
+        font-weight: bold;
+        text-align: right;
+    }
+    .iw_table_icon {
+        text-align: right;
+    }
+    /* ********************************************************* */
+
+    .Menu2{
+        width: 100%
+    }
+    div.telEmg p{
+        border: solid;
+        width: 100%;
+        margin-top: 1em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding: 1em;
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+}

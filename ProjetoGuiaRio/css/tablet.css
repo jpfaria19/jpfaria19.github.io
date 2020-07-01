@@ -1,0 +1,285 @@
+@media (min-width: 768px) and (max-width: 1023px){
+    body{
+     background-color: #fff;    
+    }
+    /****************************************** INDEX.HTML **********************************************/
+
+
+    /* Menu Responsive */
+    .navbar-toggle{
+        float: left;
+        margin-left: 1em; 
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        color: #777;
+        background-color: #f8f8f8;
+    }
+
+            /* LOGO GUIA RIO */
+
+    .navbar-brand{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.7em;
+    }
+    .btn-default{
+        float: right;
+        background-color: yellow;
+        margin-bottom: 0.4em;
+        margin-top: -3em;
+        color: black
+    }
+    .btn-info{
+        margin-top: -1%;
+    }
+    .form-control{
+        width: 75%;
+        float: right;
+    }
+    
+            /* H1 and H3 */
+    article h1, h3{
+        visibility: hidden;
+        display: none;
+    }
+            /* *************** MAP ************** */
+    #map{
+        height: 31em;
+        max-width: 100%;
+
+    }
+    .controls {
+        margin-top: 2%;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 8%;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        height: 8%;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 2%;
+        margin-left: 0%;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 50%;
+    }
+
+    #pac-input:focus {
+        border-color: #4d90fe;
+    }
+
+    .pac-container {
+        font-family: Roboto;
+    }
+
+    #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+        display: none;
+    }
+
+    #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #target {
+        width: 345px;
+    }
+
+            /* ******* Slide Show (Carousel) ******** */
+
+    /* Imagens */
+    .imagem1{
+        background: url(../img/cristo.jpg);
+        width: 83%;
+        height: 24em;
+        margin-left: 2.5em;
+    }
+    .imagem2{
+        background: url(../img/lazer.jpg);
+        width: 83%;
+        height: 24em;
+        margin-left: 2.5em;
+    }
+    .imagem3{
+        background: url(../img/hotel.jpg);
+        width: 83%;
+        height: 24em;
+        margin-left: 2.5em;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100%;
+        height: 20em;
+        bottom: 3em;
+        left: 0.5em;
+        position: relative;
+        margin: auto;
+    }
+    .carousel{
+        float: right;
+        width: 32%;
+        height: 30.5em;
+    }
+    div.fade img{
+        width: 100%;
+        height: 24em;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .marcador{
+        text-align: center;
+        margin-left: 4em;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+            /* ******* Menu 2 ******* */
+    .Menu2{
+        background-color: #333;
+        overflow: hidden;
+        width: 68%;
+    }
+    
+    div.Menu2 a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+            /* Telefones de Emergência */
+    .telEmg{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+            /* ******* Menu Footer ******* */
+    .footer {
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+        height: 1px;
+        visibility: hidden;
+    }
+    .footer a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+        font-size: 17px;
+        visibility: hidden;
+    }
+            /* ********** FOOTER ********** */
+    footer div.container{
+        display: none;
+        visibility: hidden;
+    }
+}
+    /* ***** BreakPoint CSS ***** */
+@media (min-width: 768px) and (max-width: 991px){
+    .imagem1{
+        width: 108%;
+        margin-left: 3.5em;
+    }
+    .imagem2{
+        width: 108%;
+        margin-left: 3.5em;
+    }
+    .imagem3{
+        width: 108%;
+        margin-left: 3.5em;
+    }
+    .marcador{
+        text-align:center;
+        margin-left: 9.6em;
+    }
+    .btn-default{
+        margin-left: 9.4em;
+    }
+    .numbertext{
+        margin-left: 3.6em;
+    }
+}
+        /* ***** BreakPoint CSS ***** */
+@media (min-width: 768px) and (max-width: 898px){
+    .imagem1{
+        width: 100%;
+        margin-left: 2.5em;
+    }
+    .imagem2{
+        width: 100%;
+        margin-left: 2.5em;
+    }
+    .imagem3{
+        width: 100%;
+        margin-left: 2.5em;
+    }
+    .marcador{
+        text-align:center;
+        margin-left: 7.6em;
+    }
+    .btn-default{
+        margin-left: 8.4em;
+    }
+    .numbertext{
+        margin-left: 2.6em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    .btn-default{
+        margin-top: 0.5em;
+    }
+}
