@@ -1,8 +1,0 @@
-FROM ubuntu:18.04
-
-MAINTAINER jpfaria19@hotmail.com
-
-COPY . /usr/share/nginx/html
-
-RUN apt-get update && apt-get install nginx -y && apt-get clean
-RUN apt-get update && apt-get install vim -y && apt-get clean
